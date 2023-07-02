@@ -1,0 +1,60 @@
+body {
+    font-weight: bold;
+    /* background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+    background-color: #1f1c1b;
+    color: aliceblue;
+}
+
+
+/* 
+ * CLOTHES IMAGES
+ */
+
+.clothes-images {
+    padding-top: 27px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.clothes-images h2{
+    text-align: center;
+    font-weight: normal;
+}
+
+.normal-font {
+    font-family: "calibri", serif;
+    font-weight: bolder;
+}
+
+.kaws-font {
+    font-family: 'bubble', sans-serif;
+}
+
+.cartoon-font {
+    font-family: "onepiece-font", serif;
+    font-size: 120%;
+}
+
+.clothes-images p {
+    text-align: center;
+
+}
+
+img {
+    display: block;
+    margin: 5px auto;
+    max-width: 90%;
+    /* height: 50%; */
+    width: auto;
+    margin-bottom: 27px;
+}
+
+@media (max-width: 50em) { /* 1em == 768px (tamaño de la fuente raíz) */
+    .clothes-images {
+        grid-template-columns: 1fr;
+    }
+}

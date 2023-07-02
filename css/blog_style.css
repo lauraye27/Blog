@@ -6,19 +6,23 @@
 
 body {
     overflow-x: hidden;
-    font-family: 'Gill Sans MT', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'poppings', sans-serif;
     margin: 0 auto;
     background-color: #ffffff;
 }
 
 
-/* MENU */
+/* 
+ * MENU
+ */
 
 #navbar {
-    background-color: #575757;
+    background-color: #272727;
     color: #c7c7c7;
     padding: 1%;
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .menu {
@@ -53,45 +57,92 @@ body {
     .active {
         color: #323232;
     }
-}
+} 
 
+/* 
+ * SEARCH 
+ */
 
-/* SLIDE */
-
-#slide {
-    width: fit-content;
-    height: 50%;
+.search-form {
     display: flex;
     align-items: center;
-    top: 0;
-    left: 0;
+    margin-left: 10%;
+    font-size: 10%;
+    color: #555;
+    cursor: pointer;
+}
+
+.search-form input[type="text"] {
+    padding: 8px 16px;
+    font-size: 16px;
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.search-form button {
+    padding: 8px 16px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #272727;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+.search-form button:hover {
+    background-color: #333;
+}
+
+/* 
+ * LOGO 
+ */
+
+#logo {
+    /* text-align: right; */
+    padding-right: 5px;
+}
+
+#logo img {
+    width: 50px;
+    height: auto;
+    padding-right: 5px;
+}
+
+/* 
+ * SLIDE 
+ */
+
+#slide {
     overflow: hidden;
-    padding-bottom: 50%;
+    margin-bottom: 25%;
+}
+
+.slider {
+    display: flex;
 }
 
 .slider img {
-    background-image: none;
-    margin: 0;
-    box-shadow: none;
+    display: block;
+    margin: 0 auto;
+    max-width: 55%;
+    height: auto;
+    width: auto;
 }
 
 .bx-wrapper {
-    margin: 0;
     box-shadow: none;
 }
 
 
-
-
-
-
-
-
-/* FOOTER */
-
+/* 
+ * FOOTER 
+ */
 
 footer {
-    background: #575757;
+    background: #272727;
     width: 100%;
 }
 
@@ -134,3 +185,42 @@ footer {
     padding: 1% 1% 1% 5%; /*top right bottom left*/
 }
 
+
+/*
+ * FONTS
+ */
+
+ @font-face {
+    font-family: "tepeno-sans";
+    src: url("../fonts/Tepeno_Sans_Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "gucci-font";
+    src: url("../fonts/Granjon.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "intrepid";
+    src: url("../fonts/Intrepid.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "bubble";
+    src: url("../fonts/RubikBubbles-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "buffalo";
+    src: url("../fonts/Buffalo.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "futur";
+    src: url("../fonts/Rabbid\ Highway\ Sign\ IV.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "onepiece-font";
+    src: url("../fonts/One_piece.ttf") format("truetype");
+}

@@ -1,0 +1,90 @@
+body {
+    font-weight: bold;
+    /* background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+    background-color: #1f1c1b;
+    color: aliceblue;
+}
+
+
+/* 
+ * SHOES IMAGES
+ */
+
+.shoes-images {
+    padding-top: 27px;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.shoes-images h2{
+    text-align: center;
+    font-weight: normal;
+}
+
+.normal-font {
+    font-family: "calibri", serif;
+    font-weight: bolder;
+}
+
+.vans-font {
+    font-family: "tepeno-sans", serif;
+    color: rgb(219, 54, 26);
+}
+
+.gucci-font {
+    font-family: "gucci-font", serif;
+    font-weight: bolder;
+    /* color: #bd9302; */
+}
+
+.lv-font {
+    font-family:'intrepid', serif;
+    color: #453630;
+    /* color: #9b7e4b; */
+}
+
+.kaws-font {
+    font-family: 'bubble', sans-serif;
+}
+
+.buffalo-font {
+    font-family: "buffalo", serif;
+    font-size: 130%;
+    font-weight: bold;
+}
+
+.supreme-font {
+    font-family: "futur", serif;
+    color: rgb(237, 29, 36);
+    /* background-color: rgb(237, 29, 36); */  
+}
+
+.shoes-images p {
+    text-align: center;
+
+}
+
+img {
+    display: block;
+    margin: 5px auto;
+    max-width: 90%;
+    /* height: 50%; */
+    width: auto;
+    margin-bottom: 27px;
+}
+
+.shoes-images.left, .shoes-images.right {
+    flex: 2;
+}
+
+@media (max-width: 50em) { /* 1em == 768px (tamaño de la fuente raíz) */
+    .shoes-images {
+        /* flex-direction: column; */
+        grid-template-columns: 1fr;
+    }
+}
