@@ -8,7 +8,8 @@ body {
     overflow-x: hidden;
     font-family: 'poppings', sans-serif;
     margin: 0 auto;
-    background-color: #ffffff;
+    background-color: #e0e3e4;
+    color: rgb(15, 7, 0);
 }
 
 
@@ -134,7 +135,19 @@ body {
 
 .bx-wrapper {
     box-shadow: none;
-    border-bottom: rebeccapurple;
+    max-width: 55%;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1f1c1b;
+        color: aliceblue;
+    }
+
+    .bx-wrapper {
+      border-color: #1f1c1b;
+      background-color: #1f1c1b;
+    }
 }
 
 
@@ -224,4 +237,76 @@ footer {
 @font-face {
     font-family: "onepiece-font";
     src: url("../fonts/One_piece.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "offwhite-font";
+    src: url("../fonts/MyTupi.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "disney-font";
+    src: url("../fonts/Walter.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "versace-font";
+    src: url("../fonts/Radiant\ Bold\ Condensed\ Regular.ttf") format("truetype");
+}
+
+.normal-font {
+    font-family: "calibri", serif;
+    font-weight: bolder;
+}
+
+.vans-font {
+    font-family: "tepeno-sans", serif;
+    color: rgb(219, 54, 26);
+}
+
+.gucci-font {
+    font-family: "gucci-font", serif;
+    font-weight: bolder;
+    /* color: #bd9302; */
+}
+
+.lv-font {
+    font-family:'intrepid', serif;
+    /* color: #453630; */
+    color: #9b7e4b;
+}
+
+.kaws-font {
+    font-family: 'bubble', sans-serif;
+}
+
+.buffalo-font {
+    font-family: "buffalo", serif;
+    font-size: 130%;
+    font-weight: bold;
+}
+
+.supreme-font {
+    font-family: "futur", serif;
+    color: rgb(237, 29, 36);
+    /* background-color: rgb(237, 29, 36); */  
+}
+
+.onepiece-font {
+    font-family: "onepiece-font", serif;
+    font-size: 120%;
+}
+
+.offwhite-font {
+    font-family:"offwhite-font", serif;
+
+}
+
+.disney-font {
+    font-family: "disney-font", serif;
+}
+
+.versace-font {
+    font-family: "versace-font";
+    letter-spacing: 0.2em;
 }

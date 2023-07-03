@@ -3,9 +3,6 @@ body {
     /* background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover; */
-
-    background-color: #1f1c1b;
-    color: aliceblue;
 }
 
 
@@ -24,44 +21,6 @@ body {
 .shoes-images h2{
     text-align: center;
     font-weight: normal;
-}
-
-.normal-font {
-    font-family: "calibri", serif;
-    font-weight: bolder;
-}
-
-.vans-font {
-    font-family: "tepeno-sans", serif;
-    color: rgb(219, 54, 26);
-}
-
-.gucci-font {
-    font-family: "gucci-font", serif;
-    font-weight: bolder;
-    /* color: #bd9302; */
-}
-
-.lv-font {
-    font-family:'intrepid', serif;
-    color: #453630;
-    /* color: #9b7e4b; */
-}
-
-.kaws-font {
-    font-family: 'bubble', sans-serif;
-}
-
-.buffalo-font {
-    font-family: "buffalo", serif;
-    font-size: 130%;
-    font-weight: bold;
-}
-
-.supreme-font {
-    font-family: "futur", serif;
-    color: rgb(237, 29, 36);
-    /* background-color: rgb(237, 29, 36); */  
 }
 
 .shoes-images p {
@@ -86,5 +45,12 @@ img {
     .shoes-images {
         /* flex-direction: column; */
         grid-template-columns: 1fr;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1f1c1b;
+        color: aliceblue;
     }
 }
