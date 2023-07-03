@@ -1,0 +1,45 @@
+body {
+    font-weight: bold;
+}
+
+
+/* 
+ * PORTRAITS IMAGES
+ */
+
+.portraits-images {
+    padding-top: 27px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.portraits-images h2{
+    text-align: center;
+    font-weight: normal;
+}
+
+.portraits-images p {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 5px auto;
+    max-width: 90%;
+    width: auto;
+    margin-bottom: 27px;
+}
+
+@media (max-width: 47em) { /* 1em == 768px (tamaño de la fuente raíz) */
+    .portraits-images {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1f1c1b;
+        color: aliceblue;
+    }
+}
