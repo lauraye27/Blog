@@ -53,7 +53,7 @@ img {
     margin-bottom: 27px;
 }
 
-@media (max-width: 50em) { /* 1em == 768px (tamaño de la fuente raíz) */
+@media (max-width: 47em) { /* 1em == 768px (tamaño de la fuente raíz) */
     .clothes-images {
         grid-template-columns: 1fr;
     }

@@ -78,11 +78,11 @@ img {
     margin-bottom: 27px;
 }
 
-.shoes-images.left, .shoes-images.right {
+/* .shoes-images.left, .shoes-images.right {
     flex: 2;
-}
+} */
 
-@media (max-width: 50em) { /* 1em == 768px (tamaño de la fuente raíz) */
+@media (max-width: 47em) { /* 1em == 768px (tamaño de la fuente raíz) */
     .shoes-images {
         /* flex-direction: column; */
         grid-template-columns: 1fr;
