@@ -134,6 +134,7 @@ body {
 
 .bx-wrapper {
     box-shadow: none;
+    border-bottom: rebeccapurple;
 }
 
 
