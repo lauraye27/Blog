@@ -20,10 +20,11 @@ body {
 #navbar {
     background-color: #272727;
     color: #c7c7c7;
-    padding: 1%;
+    padding: 0% 1% 0% 1%; /*top right bottom left*/
     position: relative;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .menu {
@@ -56,9 +57,10 @@ body {
 .show {
     display: block;
     .active {
-        color: #323232;
+        color: #454545;
     }
 } 
+
 
 /* 
  * SEARCH 
@@ -97,19 +99,21 @@ body {
     background-color: #333;
 }
 
+
 /* 
  * LOGO 
  */
 
+
 #logo {
-    /* text-align: right; */
-    padding-right: 5px;
+    text-align: center;
+    justify-content: center;
 }
 
 #logo img {
-    width: 50px;
+    width: 2.5em;
     height: auto;
-    padding-right: 5px;
+    margin-top: 3%;
 }
 
 /* 
@@ -118,7 +122,6 @@ body {
 
 #slide {
     overflow: hidden;
-    margin-bottom: 25%;
 }
 
 .slider {
@@ -153,6 +156,30 @@ body {
             border-color: #1f1c1b;
         }
     }
+}
+
+
+/*
+ * TEXT
+ */
+
+.presentation {
+    padding: 1em;
+}
+
+.presentation h1{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: oblique;
+    font-family: 'raleway', sans-serif;
+    text-align: center;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+
+.presentation p{
+    text-align: center;
+    padding-bottom: 5%;
 }
 
 
