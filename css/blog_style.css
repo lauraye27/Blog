@@ -148,6 +148,11 @@ body {
       border-color: #1f1c1b;
       background-color: #1f1c1b;
     }
+    @media (prefers-color-scheme: dark) {
+        .bx-wrapper {
+            border-color: #1f1c1b;
+        }
+    }
 }
 
 
